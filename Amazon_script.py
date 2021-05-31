@@ -14,7 +14,8 @@ driver.get('https://www.amazon.com/gp/help/customer/display.html')
 
 search = driver.find_element(By.ID, 'helpsearch')
 search.send_keys('cancel order', Keys.ENTER)
-#actual_result = 'cancel items or oders'
-#expected_result = 'cancel items or oders'
+#actual_result = driver.find_element(By.XPATH, "//div[@class ='help-content']/h1").text
+#expected_result = 'Cancel Items or Oders'
 #assert expected_result == actual_result, f'Expected{expected_result}, but got {actual_result}'
+
 #driver.quit()
