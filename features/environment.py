@@ -5,7 +5,7 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    context.driver = webdriver.Chrome()
+    context.driver = webdriver.Chrome('C:\\Users\\17734\\Desktop\\hw\\python-selenium-automation\\chromedriver_win32\\chromedriver.exe')
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
 
