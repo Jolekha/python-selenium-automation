@@ -2,5 +2,6 @@
 Feature: # Enter feature name here
   # Enter feature description here
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: user can select blouse colors
+    Given open amazon product page
+    Then user can click select colors
